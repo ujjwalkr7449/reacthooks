@@ -6,3 +6,8 @@ useEffect(() => {
 useEffect(() => {
   console.log("Count changed");
 }, [count]);
+
+//Without dependency array
+useEffect(() => {
+  console.log("Runs after every render");
+});
